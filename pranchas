@@ -1,0 +1,22 @@
+"Primeiro commit: Estrutura inicial do projeto"
+Loja de Pranchas
+
+Este é um backend simples para uma loja de pranchas, desenvolvido em TypeScript utilizando o padrão MVC. Ele permite o cadastro de pranchas e a consulta do estoque atual.
+
+O projeto segue o padrão MVC (Model-View-Controller), com a seguinte estrutura:
+
+- **models**: Contém a definição dos dados e atributos das pranchas.
+- **controllers**: Contém a lógica de controle para as rotas.
+- **repositories**: Contém a lógica de persistência dos dados.
+- **routes**: Define as rotas da API.
+- **validations**: Valida as entradas do usuário.
+- **services**: Contém a lógica de negócios.
+
+- Node.js e npm instalados.
+- TypeScript instalado globalmente.
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/usuario/loja-de-pranchas.git
+   cd loja-de-pranchas
